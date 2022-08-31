@@ -1,0 +1,285 @@
+/* 카테고리별 추천 광고상품 */
+.Logo {
+  position: absolute;
+  width: 246px;
+  height: 56px;
+  left: 139px;
+  top: 100px;
+}
+
+.CategoryBest {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 1020px;
+  height: 1500px;
+  margin-left: 130px;
+  margin-top: 225px;
+}
+
+.CategoryBestHeadline {
+  margin: 0;
+  width: 260px;
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+}
+
+.HOT-TREND {
+  width: 94px;
+  height: 18px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--color-black);
+  letter-spacing: -0.02em;
+}
+
+.Title {
+  width: 260px;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.CategoryHeadlineBlack {
+  width: 111px;
+  height: 28px;
+  flex-grow: 0;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--color-black);
+  letter-spacing: -0.02em;
+}
+
+.CategoryHeadlineBlue {
+  width: 139px;
+  height: 28px;
+  flex-grow: 0;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--color-blue-600);
+  letter-spacing: -0.02em;
+}
+
+.CategoryBestProductBox {
+  display: flex;
+  flex-direction: row;
+  border: solid;
+  margin-top: 24px;
+  border-width: 1px 0px 1px 0px;
+  width: 1022px;
+  height: 634px;
+}
+
+.CategoryBestProduct {
+  position: absolute;
+  width: 89px;
+  height: 28px;
+  margin-left: 24px;
+  margin-top: 48px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.15;
+}
+
+.CategoryBestProductSubtitle {
+  display: inline;
+  margin-top: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--color-gray-700);
+}
+
+.Hotkeyword {
+  position: absolute;
+  width: 92px;
+  height: 21px;
+  margin-left: 24px;
+  margin-top: 339px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.15;
+}
+
+.HashTagGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: absolute;
+  width: 117px;
+  height: 216px;
+  margin-left: 24px;
+  margin-top: 382px;
+}
+
+.HashTag {
+  align-items: center;
+  padding: 6px 10px;
+  border: 1px solid #cccccc;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.three {
+  width: 61px;
+}
+.four {
+  width: 72px;
+}
+.five {
+  width: 83px;
+}
+.six {
+  width: 94px;
+}
+.seven {
+  width: 106px;
+}
+.eight {
+  width: 117px;
+}
+
+.CategoryFirst {
+  margin-left: 1px;
+  width: 174px;
+  height: 630px;
+}
+
+.CategorySecond {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 635px;
+}
+
+.CategoryThird {
+  width: 526px;
+  height: 630px;
+  display: flex;
+  flex-direction: column;
+}
+
+.SlideBannerText {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--color-white);
+  position: absolute;
+  margin-top: 483px;
+  margin-left: 30px;
+  text-align: center;
+  z-index: 2;
+  width: 260px;
+  height: 90px;
+}
+
+.InBoxTitle {
+  position: absolute;
+  width: 205px;
+  height: 24px;
+  margin-left: 28px;
+  margin-top: 19px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  color: var(--color-white);
+}
+
+.InBoxSubTitle {
+  position: absolute;
+  width: 215px;
+  height: 19px;
+  margin-left: 23px;
+  margin-top: 51px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--color-white);
+}
+
+.IndicateGroup {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 32px;
+  height: 12px;
+  margin-left: 144px;
+  margin-top: 597px;
+  z-index: 2;
+}
+
+.Round {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+}
+
+.CategoryThirdRow {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  margin: 7px 1px 9px 16px;
+  gap: 16px;
+}
+
+.CategoryThirdItem {
+  overflow: hidden;
+  width: 160px;
+  height: 300px;
+}
+
+.Divider::before {
+  content: "";
+  display: block;
+  width: 528px;
+  height: 1px;
+  background-color: var(--color-gray-600);
+}
+
+.ProductName {
+  margin: 12px 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.ProductPrice {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.ProductPrice span {
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 3px;
+}
+
+.Discount {
+  margin: 0 0 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--color-red-500);
+}
